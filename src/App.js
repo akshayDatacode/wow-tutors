@@ -8,9 +8,11 @@ import IndexFooterComponent from "./components/footer_components/IndexFooterComp
 function App() {
   return (
     <>
-      <IndexHeaderComponent />
-      <Index />
-      <IndexFooterComponent />
+      <div style={{ height: "100%" }}>
+        <IndexHeaderComponent className="mb-5" />
+        <Index className="mt-5" />
+        <IndexFooterComponent className="mt-5" />
+      </div>
     </>
   );
 }
