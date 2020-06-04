@@ -1,15 +1,14 @@
 import React, { Component } from "react";
 import "../../assets/css/ToolBar.css";
 import DrawerToggleButton from "./side_drawer/DrawerToggleButton";
-import { Link } from "react-router-dom";
 
 class ToolBar extends Component {
   state = {};
   render() {
     return (
       <>
-        <header className="toolbar">
-          <nav className="toolbar_navigation">
+        <header className="toolbar fixed-top">
+          <nav className="toolbar_navigation ">
             <div className="toolbar_toggle-button">
               <DrawerToggleButton clickButton={this.props.drawerClickHandler} />
             </div>
@@ -27,19 +26,19 @@ class ToolBar extends Component {
             <div className="toolbar_navigation-items">
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="/about">About Us</a>
+                  <a href="#About-us">About Us</a>
                 </li>
                 <li>
-                  <a href="/">Why Choose</a>
+                  <a href="#why-choose-us">Why Choose</a>
                 </li>
                 <li>
-                  <a href="/">Testimonial</a>
+                  <a href="#testimonial">Testimonial</a>
                 </li>
                 <li>
-                  <a href="/">Contact Us</a>
+                  <a href="#footer">Contact Us</a>
                 </li>
               </ul>
             </div>

@@ -14,19 +14,19 @@ class SideDrawer extends Component {
           <h1 style={{ background: "Yellow" }}>Hello</h1>
           <ul>
             <li>
-              <a href="/">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="/about">About Us</a>
+              <a href="#About-us">About Us</a>
             </li>
             <li>
-              <a href="/">Why Choose</a>
+              <a href="#why-choose-us">Why Choose</a>
             </li>
             <li>
-              <a href="/">Testimonial</a>
+              <a href="#testimonial">Testimonial</a>
             </li>
             <li>
-              <a href="/">Contact Us</a>
+              <a href="#footer">Contact Us</a>
             </li>
           </ul>
         </nav>

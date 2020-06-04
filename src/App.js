@@ -9,10 +9,10 @@ function App() {
     <>
       <div style={{ height: "100%", background: "#f7f7f6" }}>
         <IndexHeaderComponent />
-        <div className="container-fluid mt-5 border border-danger">
+        <div className="container-fluid p-0 mt-5">
           <Index />
         </div>
-        <div className="text-primary border border-warning">
+        <div className="text-primary ">
           <IndexFooterComponent />
         </div>
       </div>

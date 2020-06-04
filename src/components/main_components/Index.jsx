@@ -5,8 +5,9 @@ class Index extends Component {
   render() {
     return (
       <>
-        <HomeCompoment />
-        
+        <div>
+          <HomeCompoment />
+        </div>
       </>
     );
   }
