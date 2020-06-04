@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/wow-tutors/static/css/main.af7c0659.chunk.css",
+    "main.js": "/wow-tutors/static/js/main.fa573bfa.chunk.js",
+    "main.js.map": "/wow-tutors/static/js/main.fa573bfa.chunk.js.map",
+    "runtime-main.js": "/wow-tutors/static/js/runtime-main.28ca54f5.js",
+    "runtime-main.js.map": "/wow-tutors/static/js/runtime-main.28ca54f5.js.map",
+    "static/css/2.829c9cb5.chunk.css": "/wow-tutors/static/css/2.829c9cb5.chunk.css",
+    "static/js/2.74f188fd.chunk.js": "/wow-tutors/static/js/2.74f188fd.chunk.js",
+    "static/js/2.74f188fd.chunk.js.map": "/wow-tutors/static/js/2.74f188fd.chunk.js.map",
+    "index.html": "/wow-tutors/index.html",
+    "precache-manifest.e1a8e1e09d2c2fb86c822d97bf2b87cb.js": "/wow-tutors/precache-manifest.e1a8e1e09d2c2fb86c822d97bf2b87cb.js",
+    "service-worker.js": "/wow-tutors/service-worker.js",
+    "static/css/2.829c9cb5.chunk.css.map": "/wow-tutors/static/css/2.829c9cb5.chunk.css.map",
+    "static/css/main.af7c0659.chunk.css.map": "/wow-tutors/static/css/main.af7c0659.chunk.css.map",
+    "static/js/2.74f188fd.chunk.js.LICENSE.txt": "/wow-tutors/static/js/2.74f188fd.chunk.js.LICENSE.txt",
+    "static/media/wow_logo.png": "/wow-tutors/static/media/wow_logo.f5bf3719.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.28ca54f5.js",
+    "static/css/2.829c9cb5.chunk.css",
+    "static/js/2.74f188fd.chunk.js",
+    "static/css/main.af7c0659.chunk.css",
+    "static/js/main.fa573bfa.chunk.js"
+  ]
+}
