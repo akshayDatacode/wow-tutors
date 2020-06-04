@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import "../../assets/css/About-section.css";
+import "../../assets/css/Home-Component.css";
 
 class HomeCompoment extends Component {
   state = {};
@@ -41,12 +41,13 @@ class HomeCompoment extends Component {
        {/*Why choose us section ends */}
 
        {/*Testimonial section starts */}
-       <div id="testimonial" >
-           <div id="headline">
+       <div id="testimonial" className="blur" >
+       <div id="testimonial-headline">
              What Our Clients Say
            </div>
-
+          
        </div>
+      
        {/*Testimonial section ends */}
       </>
     );

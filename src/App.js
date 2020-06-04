@@ -12,7 +12,7 @@ function App() {
         <div className="container-fluid mt-5 border border-danger">
           <Index />
         </div>
-        <div className="mt-5 text-primary border border-warning">
+        <div className="text-primary border border-warning">
           <IndexFooterComponent />
         </div>
       </div>
