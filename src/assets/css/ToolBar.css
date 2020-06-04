@@ -1,8 +1,8 @@
 .toolbar {
   position: fixed;
   width: 100%;
-  background: #3498db;
-  height: 56px;
+  background: #f7f7f6;
+  height: 70px;
 }
 
 .toolbar_navigation {
@@ -38,13 +38,13 @@
 }
 
 .toolbar_navigation-items a {
-  color: white;
+  color: #43413d;
   text-decoration: none;
 }
 
 .toolbar_navigation-items a:hover,
 .toolbar_navigation-items a:active {
-  color: yellow;
+  color: rgb(6, 95, 10);
 }
 
 @media (max-width: 760px) {

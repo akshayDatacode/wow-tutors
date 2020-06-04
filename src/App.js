@@ -7,7 +7,7 @@ import Index from "./components/main_components/Index";
 function App() {
   return (
     <>
-      <div style={{ height: "100%" }}>
+      <div style={{ height: "100%", background: "#f7f7f6" }}>
         <IndexHeaderComponent />
         <div className="container-fluid mt-5 border border-danger">
           <Index />
