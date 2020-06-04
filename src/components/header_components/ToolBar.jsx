@@ -21,13 +21,19 @@ class ToolBar extends Component {
             <div className="toolbar_navigation-items">
               <ul>
                 <li>
-                  <a href="/home"> Home</a>
+                  <a href="/">Home</a>
                 </li>
                 <li>
-                  <Link to="/about">About</Link>
+                  <a href="/about">About Us</a>
                 </li>
                 <li>
-                  <a href="/"> Contact us</a>
+                  <a href="/">Why Choose</a>
+                </li>
+                <li>
+                  <a href="/">Testimonial</a>
+                </li>
+                <li>
+                  <a href="/">Contact Us</a>
                 </li>
               </ul>
             </div>

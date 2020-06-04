@@ -11,15 +11,22 @@ class SideDrawer extends Component {
     return (
       <>
         <nav className={drawerClasses}>
+          <h1 style={{ background: "Yellow" }}>Hello</h1>
           <ul>
             <li>
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">About us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
-              <a href="/">Contact us</a>
+              <a href="/">Why Choose</a>
+            </li>
+            <li>
+              <a href="/">Testimonial</a>
+            </li>
+            <li>
+              <a href="/">Contact Us</a>
             </li>
           </ul>
         </nav>
