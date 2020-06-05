@@ -1,9 +1,15 @@
 import React, { Component } from "react";
 import "../../assets/css/ToolBar.css";
 import DrawerToggleButton from "./side_drawer/DrawerToggleButton";
+import fire from "../../config/fire";
 
 class ToolBar extends Component {
   state = {};
+
+  logout() {
+    fire.auth().signOut();
+  }
+
   render() {
     return (
       <>
@@ -39,6 +45,11 @@ class ToolBar extends Component {
                 </li>
                 <li>
                   <a href="#footer">Contact Us</a>
+                </li>
+                <li>
+                  <a href="#footer" onClick={this.logout}>
+                    Log Out
+                  </a>
                 </li>
               </ul>
             </div>
