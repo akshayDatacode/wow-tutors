@@ -6,18 +6,24 @@ import "../../assets/css/Home-Component.css";
 class HomeCompoment extends Component {
   state = {};
 
-  
-
   render() {
     return (
       <>
         <div className="container-fluid p-0 mt-5">
           <div className="m-2  text-center mb-5">
-            <h1 className="display-2 text-primary text-weight-bold text-center">
+            <h1
+              className="display-2  text-weight-bold text-center"
+              style={{ color: "#43413d" }}
+            >
               WOW TUTORS
             </h1>
             <div>
-              <h1 className="btn btn-primary">call : 7895854125 </h1>
+              <h1
+                className="btn border border-warning"
+                style={{ background: "#f4cb58" }}
+              >
+                call : 7895854125{" "}
+              </h1>
             </div>
           </div>
           {/* About section starts */}
@@ -62,46 +68,58 @@ class HomeCompoment extends Component {
             <div className="row ">
               <div className="col ">
                 <div
-                  className="card-deck mt-4 ml-0 mr-0 bg-primary"
-                  style={{ background: "back" }}
+                  className="card-deck  mt-4 ml-0 mr-0 "
+                  style={{ background: "#43413d" }}
                 >
-                  <div className="card mb-4 ">
+                  <div className="card mb-4 mt-4 ">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/1.png")}
                       alt="First slide"
                     />
-                    <div className="card-body text-center">
+                    <div
+                      className="card-body text-center "
+                      style={{ background: "#f4cb58" }}
+                    >
                       <h5>Card 1</h5>
                     </div>
                   </div>
-                  <div className="card mb-4 ">
+                  <div className="card mb-4 mt-4 ">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/2.png")}
                       alt="First slide"
                     />
-                    <div className="card-body text-center">
+                    <div
+                      className="card-body text-center "
+                      style={{ background: "#f4cb58" }}
+                    >
                       <h5>Card 2</h5>
                     </div>
                   </div>
-                  <div className="card mb-4 ">
+                  <div className="card mb-4 mt-4 ">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/3.png")}
                       alt="First slide"
                     />
-                    <div className="card-body text-center">
+                    <div
+                      className="card-body text-center "
+                      style={{ background: "#f4cb58" }}
+                    >
                       <h5>Card 3</h5>
                     </div>
                   </div>
-                  <div className="card mb-4 ">
+                  <div className="card mb-4 mt-4 ">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/4.png")}
                       alt="First slide"
                     />
-                    <div className="card-body text-center">
+                    <div
+                      className="card-body text-center "
+                      style={{ background: "#f4cb58" }}
+                    >
                       <h5>Card 4</h5>
                     </div>
                   </div>

@@ -28,6 +28,11 @@ class SideDrawer extends Component {
             <li>
               <a href="#footer">Contact Us</a>
             </li>
+            {/* <li>
+                  <a href="#footer" onClick={this.logout}>
+                    Log Out
+                  </a>
+                </li> */}
           </ul>
         </nav>
       </>

@@ -1,31 +1,32 @@
 import React, { Component } from "react";
 import HomeCompoment from "./HomeComponent";
-import fire from "../../config/fire";
-import Login from "../../UserBase/Login";
+// import fire from "../../config/fire";
+// import Login from "../../UserBase/Login";
 
 class Index extends Component {
-  state = {
-    user: {},
-  };
+  // state = {
+  //   user: {},
+  // };
 
-  componentDidMount() {
-    this.authListner();
-  }
+  // componentDidMount() {
+  //   this.authListner();
+  // }
 
-  authListner() {
-    fire.auth().onAuthStateChanged((user) => {
-      if (user) {
-        this.setState({ user });
-      } else {
-        this.setState({ user: null });
-      }
-    });
-  }
+  // authListner() {
+  //   fire.auth().onAuthStateChanged((user) => {
+  //     if (user) {
+  //       this.setState({ user });
+  //     } else {
+  //       this.setState({ user: null });
+  //     }
+  //   });
+  // }
 
   render() {
     return (
       <>
-        <div>{this.state.user ? <HomeCompoment /> : <Login />}</div>
+        {/* <div>{this.state.user ? <HomeCompoment /> : <Login />}</div> */}
+        <HomeCompoment />
       </>
     );
   }

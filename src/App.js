@@ -13,7 +13,7 @@ function App() {
           <Index />
         </div>
         <div className="text-primary ">
-          <IndexFooterComponent />
+          <IndexFooterComponent className="container-fluid p-0" />
         </div>
       </div>
     </>

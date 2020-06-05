@@ -7,7 +7,7 @@ class TestimonialCarousel extends Component {
     return (
       <>
         <div id="testimonial" className="row text-center mt-5 p-0 mb-5">
-          <div id="testimonial-headline" className="col p-0">
+          <div id="testimonial-headline" className="col p-5">
             <h2 className="mb-5">What Our Clients Say</h2>
             <Carousel indicators={false}>
               <Carousel.Item>

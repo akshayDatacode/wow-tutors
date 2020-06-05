@@ -5,12 +5,43 @@ class IndexFooterComponent extends Component {
   render() {
     return (
       <>
-        <footer id="footer">ssssssssssdf</footer>
-        <div
-          className="footer-copyright text-center py-3"
-          style={{ background: "#3498db" }}
+        <footer
+          id="footer"
+          className="container-fluid p-0"
+          style={{ background: "#f4cb58", color: "#43413d" }}
         >
-          © 2020 Copyright:
+          <div className="row">
+            <div className="col">
+              <h4 className="text-center">Contact Us</h4>
+              <div className="row">
+                <div className="col-md-6">
+                  <div className="row p-3">
+                    <h4 className="text-center">Our Vision</h4>
+                    <p className="pl-5 pr-5 mt-4 mb-4">
+                      Akshay andliyaScaling Marks is putting pressure on
+                      Students.it is being expected to every student to perform
+                      well in it's Exam. Parents are too engage to compare their
+                      ward from other. Technological advancement has also
+                      changed pattern of teaching structure . Every student is
+                      being taught in same way ignoring his individual quality
+                      in many institution. It is growing need of private tuition
+                      day by day. Private tuition helps slow learner to get
+                      quality education in the
+                    </p>
+                  </div>
+                </div>
+                <div className="col-md-6 text-center">
+                  <h6> Email : Akshaycse25@gmail.com</h6>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div
+          className="footer-copyright text-center py-2"
+          style={{ background: "#43413d" }}
+        >
+          © 2020 Copyright:{" "}
           <a href="www.datacode.in" className="text-white">
             datacode.in
           </a>
