@@ -38,7 +38,7 @@ class IndexFooterComponent extends Component {
                     <h6 className="mb-2"> Phone : 7455858585</h6>
                     <h6 className="mb-2">
                       {" "}
-                      Address : &8, fjdfdfdf,gggdsdgdsd,dssfs,sdfs
+                      Address : 78, fjdfdfdf,gggdsdgdsd,dssfs,sdfs
                     </h6>
                     <h6 className="mb-2"> Email : Akshaycse25@gmail.com</h6>
                   </div>

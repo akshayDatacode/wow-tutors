@@ -10,7 +10,7 @@ class HomeCompoment extends Component {
     return (
       <>
         <div className="container-fluid p-0 mt-5">
-          <div className="m-2  text-center mb-5">
+          <div className="m-2  text-center mb-5" id="home">
             <h1
               className="display-2  text-weight-bold text-center"
               style={{ color: "#43413d" }}
@@ -29,7 +29,11 @@ class HomeCompoment extends Component {
           {/* About section starts */}
           <div id="About-us" className="container pl-3 border-warning">
             <div className="row">
-              <div id="About-Content-section" className="col-md-6 p-3">
+              <div
+                id="About-Content-section"
+                className="col-md-6 p-3"
+                style={{ color: "#43413d" }}
+              >
                 <h2> WELCOME TO WOW TUTORS CONSULTANCY</h2>
                 <p>
                   Scaling Marks is putting pressure on Students.it is being
@@ -56,7 +60,11 @@ class HomeCompoment extends Component {
                 </p>
               </div>
               <div id="About-Ad-section" className="col-md-6">
-                Add Section
+                <img
+                  className=" card-img d-block w-100"
+                  src={require("../../assets/images/6.png")}
+                  alt="First slide"
+                />
               </div>
             </div>
           </div>
@@ -71,56 +79,68 @@ class HomeCompoment extends Component {
                   className="card-deck  mt-4 ml-0 mr-0 "
                   style={{ background: "#43413d" }}
                 >
-                  <div className="card mb-4 mt-4 ">
+                  <div
+                    className="card mb-4 mt-4 "
+                    style={{ borderColor: "#43413d" }}
+                  >
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/1.png")}
                       alt="First slide"
                     />
                     <div
-                      className="card-body text-center "
+                      className="card-body p-2  text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h5>Card 1</h5>
+                      <h6>Effective Teachers Available</h6>
                     </div>
                   </div>
-                  <div className="card mb-4 mt-4 ">
+                  <div
+                    className="card mb-4 mt-4 "
+                    style={{ borderColor: "#43413d" }}
+                  >
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/2.png")}
                       alt="First slide"
                     />
                     <div
-                      className="card-body text-center "
+                      className="card-body p-2 text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h5>Card 2</h5>
+                      <h6>Education that teaches you to Think</h6>
                     </div>
                   </div>
-                  <div className="card mb-4 mt-4 ">
+                  <div
+                    className="card mb-4 mt-4 "
+                    style={{ borderColor: "#43413d" }}
+                  >
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/3.png")}
                       alt="First slide"
                     />
                     <div
-                      className="card-body text-center "
+                      className="card-body p-2 text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h5>Card 3</h5>
+                      <h6>Any class any subject anywhere in Indore </h6>
                     </div>
                   </div>
-                  <div className="card mb-4 mt-4 ">
+                  <div
+                    className="card mb-4 mt-4 "
+                    style={{ borderColor: "#43413d" }}
+                  >
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/4.png")}
                       alt="First slide"
                     />
                     <div
-                      className="card-body text-center "
+                      className="card-body p-2 text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h5>Card 4</h5>
+                      <h6>From KG to 12th All Subjects (CBSE/ICSE)</h6>
                     </div>
                   </div>
                 </div>
