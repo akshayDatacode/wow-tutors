@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ecc7ea53e13383065ad15318b686745f",
+    "revision": "e2c75921206d367f0ce8df1774e13540",
     "url": "/wow-tutors/index.html"
   },
   {
-    "revision": "5dacb1146a34f2e70afc",
+    "revision": "103be440ad2e33a8e13c",
     "url": "/wow-tutors/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "b2a6d1d09a85a7421114",
-    "url": "/wow-tutors/static/css/main.0277816b.chunk.css"
+    "revision": "2df145ea9bb6b433083c",
+    "url": "/wow-tutors/static/css/main.7186085f.chunk.css"
   },
   {
-    "revision": "5dacb1146a34f2e70afc",
-    "url": "/wow-tutors/static/js/2.73b70f8c.chunk.js"
+    "revision": "103be440ad2e33a8e13c",
+    "url": "/wow-tutors/static/js/2.99341b82.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/wow-tutors/static/js/2.73b70f8c.chunk.js.LICENSE.txt"
+    "url": "/wow-tutors/static/js/2.99341b82.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b2a6d1d09a85a7421114",
-    "url": "/wow-tutors/static/js/main.e4b9545e.chunk.js"
+    "revision": "2df145ea9bb6b433083c",
+    "url": "/wow-tutors/static/js/main.0b1a65d7.chunk.js"
   },
   {
     "revision": "7fed6f19e39f3609b0ad",
@@ -46,6 +46,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c44db6f9d265310a83ecce1dddafd302",
     "url": "/wow-tutors/static/media/6.c44db6f9.png"
+  },
+  {
+    "revision": "e2a0004d7c65060b98fbdf60b1a87d8b",
+    "url": "/wow-tutors/static/media/ak.e2a0004d.jpg"
+  },
+  {
+    "revision": "95e21d658e6f9660eb5a2adb2c4a9c9e",
+    "url": "/wow-tutors/static/media/ak2.95e21d65.jpg"
   },
   {
     "revision": "f5bf3719c32532e1d63022f00cd319d6",
