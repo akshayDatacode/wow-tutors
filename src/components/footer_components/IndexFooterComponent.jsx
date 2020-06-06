@@ -1,5 +1,11 @@
 import React, { Component } from "react";
 import "../../assets/css/Footer.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faEnvelopeOpen,
+  faPhone,
+  faAddressCard,
+} from "@fortawesome/free-solid-svg-icons";
 class IndexFooterComponent extends Component {
   state = {};
   render() {
@@ -32,15 +38,22 @@ class IndexFooterComponent extends Component {
                     </div>
                   </div>
                 </div>
-                <div className="col-md-6 text-left mt-4">
+                <div className="col-md-6 text-left mt-md-5 mb-md-0 mb-5 ">
                   <div className="ml-5">
-                    <h6 className="mb-2"> Email : Akshaycse25@gmail.com</h6>
-                    <h6 className="mb-2"> Phone : 7455858585</h6>
                     <h6 className="mb-2">
                       {" "}
-                      Address : 78, fjdfdfdf,gggdsdgdsd,dssfs,sdfs
+                      <FontAwesomeIcon icon={faEnvelopeOpen} className="mr-2" />
+                      Email : wowtutorsindore@gmail.com
                     </h6>
-                    <h6 className="mb-2"> Email : Akshaycse25@gmail.com</h6>
+                    <h6 className="mb-2">
+                      <FontAwesomeIcon icon={faPhone} className="mr-2" /> Phone
+                      : 6260947192
+                    </h6>
+                    <h6 className="mb-2">
+                      <FontAwesomeIcon icon={faAddressCard} className="mr-2" />{" "}
+                      Address : 1st Floor Sappire Square Building Tower Square ,
+                      Indore
+                    </h6>
                   </div>
                 </div>
               </div>

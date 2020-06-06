@@ -30,11 +30,11 @@
 
 .side-drawer a:hover,
 .side-drawer a:active {
-  color: slateblue;
+  color: #f4cb58;
 }
 
 .side-drawer a {
-  color: seagreen;
+  color: #43413d;
   text-decoration: none;
   font-size: 1.7em;
 }

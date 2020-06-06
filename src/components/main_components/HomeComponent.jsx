@@ -76,15 +76,12 @@ class HomeCompoment extends Component {
             <div className="row ">
               <div className="col ">
                 <div
-                  className="card-deck  mt-4 ml-0 mr-0 "
+                  className="card-deck  mt-4 ml-0 mr-0 pb-2  pt-2"
                   style={{ background: "#43413d" }}
                 >
-                  <div
-                    className="card mb-4 mt-4 "
-                    style={{ borderColor: "#43413d" }}
-                  >
+                  <div className="card mb-md-4 mt-md-4 m-2">
                     <img
-                      className=" card-img d-block w-100"
+                      className=" card-img d-block w-100 "
                       src={require("../../assets/images/1.png")}
                       alt="First slide"
                     />
@@ -95,10 +92,7 @@ class HomeCompoment extends Component {
                       <h6>Effective Teachers Available</h6>
                     </div>
                   </div>
-                  <div
-                    className="card mb-4 mt-4 "
-                    style={{ borderColor: "#43413d" }}
-                  >
+                  <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/2.png")}
@@ -111,10 +105,7 @@ class HomeCompoment extends Component {
                       <h6>Education that teaches you to Think</h6>
                     </div>
                   </div>
-                  <div
-                    className="card mb-4 mt-4 "
-                    style={{ borderColor: "#43413d" }}
-                  >
+                  <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/3.png")}
@@ -127,10 +118,7 @@ class HomeCompoment extends Component {
                       <h6>Any class any subject anywhere in Indore </h6>
                     </div>
                   </div>
-                  <div
-                    className="card mb-4 mt-4 "
-                    style={{ borderColor: "#43413d" }}
-                  >
+                  <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100"
                       src={require("../../assets/images/4.png")}
