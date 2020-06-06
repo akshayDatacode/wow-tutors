@@ -1,6 +1,15 @@
 import React, { Component } from "react";
 import "../../assets/css/ToolBar.css";
 import DrawerToggleButton from "./side_drawer/DrawerToggleButton";
+import {
+  faAddressBook,
+  faCheck,
+  faHome,
+  faUser,
+  faUsers,
+  faMapPin,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import fire from "../../config/fire";
 
 class ToolBar extends Component {
@@ -32,19 +41,34 @@ class ToolBar extends Component {
             <div className="toolbar_navigation-items">
               <ul>
                 <li>
-                  <a href="#home">Home</a>
+                  <a href="#home">
+                    <FontAwesomeIcon icon={faHome} className="mr-2" />
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="#About-us">About Us</a>
+                  <a href="#About-us">
+                    <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
+                    About Us
+                  </a>
                 </li>
                 <li>
-                  <a href="#why-choose-us">Why Choose</a>
+                  <a href="#why-choose-us">
+                    <FontAwesomeIcon icon={faCheck} className="mr-2" />
+                    Why Choose
+                  </a>
                 </li>
                 <li>
-                  <a href="#testimonial">Testimonial</a>
+                  <a href="#testimonial">
+                    <FontAwesomeIcon icon={faUsers} className="mr-2" />
+                    Testimonial
+                  </a>
                 </li>
                 <li>
-                  <a href="#footer">Contact Us</a>
+                  <a href="#footer">
+                    <FontAwesomeIcon icon={faMapPin} className="mr-2" />
+                    Contact Us
+                  </a>
                 </li>
                 {/* <li>
                   <a href="#footer" onClick={this.logout}>

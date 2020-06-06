@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import TestimonialCarousel from "./TestimonialCarousel";
 
 import "../../assets/css/Home-Component.css";
+import CarouselComponent from "./CarouselComponent";
 
 class HomeCompoment extends Component {
   state = {};
@@ -9,8 +10,9 @@ class HomeCompoment extends Component {
   render() {
     return (
       <>
-        <div className="container-fluid p-0 mt-5">
-          <div className="m-2  text-center mb-5" id="home">
+        <div className="container-fluid p-0 mt-2">
+          <CarouselComponent />
+          <div className=" mt-5 text-center mb-5" id="home">
             <h1
               className="display-2  text-weight-bold text-center"
               style={{ color: "#43413d" }}
