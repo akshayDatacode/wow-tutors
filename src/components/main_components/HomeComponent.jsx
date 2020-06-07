@@ -112,7 +112,7 @@ class HomeCompoment extends Component {
                   <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100 "
-                      src={require("../../assets/images/1.png")}
+                      src={require("../../assets/images/1.jpg")}
                       alt="First slide"
                     />
                     <div
@@ -125,40 +125,40 @@ class HomeCompoment extends Component {
                   <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100"
-                      src={require("../../assets/images/2.png")}
+                      src={require("../../assets/images/2.jpg")}
                       alt="First slide"
                     />
                     <div
                       className="card-body p-2 text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h6>Education that teaches you to Think</h6>
+                      <h6>Any class any subject anywhere in Indore</h6>
                     </div>
                   </div>
                   <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100"
-                      src={require("../../assets/images/3.png")}
+                      src={require("../../assets/images/u.jpg")}
                       alt="First slide"
                     />
                     <div
                       className="card-body p-2 text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h6>Any class any subject anywhere in Indore </h6>
+                      <h6>Online Classes are also Available </h6>
                     </div>
                   </div>
                   <div className="card mb-md-4 mt-md-4 m-2">
                     <img
                       className=" card-img d-block w-100"
-                      src={require("../../assets/images/4.png")}
+                      src={require("../../assets/images/4.jpg")}
                       alt="First slide"
                     />
                     <div
                       className="card-body p-2 text-center "
                       style={{ background: "#f4cb58" }}
                     >
-                      <h6>From KG to 12th All Subjects (CBSE/ICSE)</h6>
+                      <h6>Personalized Relationship / Extra Attention</h6>
                     </div>
                   </div>
                 </div>
