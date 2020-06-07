@@ -15,7 +15,6 @@ class HomeCompoment extends Component {
           <div className=" mt-5 text-center mb-5" id="home ml-5 mr-5 pl-5 pr-5">
             <img
               className="home_img card-img d-block  "
-            
               src={require("../../assets/images/wow_logo.png")}
               alt="First slide"
             />
@@ -102,7 +101,7 @@ class HomeCompoment extends Component {
           {/*Why Choose us section starts */}
           <div id="why-choose-us" class="text-center mt-5 pt-3">
             <h2 className="text-Success" style={{ color: "#43413d" }}>
-              What Make us Unique
+              The WoW Edge
             </h2>
             <div className="row ">
               <div className="col ">

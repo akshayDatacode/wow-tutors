@@ -37,12 +37,12 @@ class ToolBar extends Component {
               <DrawerToggleButton clickButton={this.props.drawerClickHandler} />
             </div>
             <div className="toolbar_logo">
-                <img
-                  className="logo_img "
-                  src={require("../../assets/images/wow_logo.png")}
-                  alt="First slide"
-                />
-              </div>
+              <img
+                className="logo_img "
+                src={require("../../assets/images/wow_logo.png")}
+                alt="First slide"
+              />
+            </div>
             {/* This is for Logo and Nev Spaccing */}
             <div className="logo-nev-spacer" />
             <div className="toolbar_navigation-items">
@@ -68,7 +68,7 @@ class ToolBar extends Component {
                 <li>
                   <a href="#testimonial">
                     <FontAwesomeIcon icon={faComments} className="mr-2" />
-                    Testimonial
+                    Stars Speak
                   </a>
                 </li>
                 <li>

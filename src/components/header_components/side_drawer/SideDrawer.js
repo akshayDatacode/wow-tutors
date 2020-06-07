@@ -54,8 +54,8 @@ class SideDrawer extends Component {
             <li>
               <a href="#testimonial">
                 <h5>
-                  <FontAwesomeIcon icon={faComments} className="mr-2" />{" "}
-                  Testimonial
+                  <FontAwesomeIcon icon={faComments} className="mr-2" /> Stars
+                  Speak
                 </h5>
               </a>
             </li>
