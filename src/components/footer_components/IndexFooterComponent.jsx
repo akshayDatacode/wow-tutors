@@ -72,7 +72,7 @@ class IndexFooterComponent extends Component {
                       Indore
                     </h6>
                   </div>
-                  <div className="ml-5 mt-5">
+                  <div className="ml-md-5 ml-5  mt-5">
                     <a
                       href="https://m.facebook.com/wowtutorsindore/"
                       target="_balnk"
@@ -80,8 +80,8 @@ class IndexFooterComponent extends Component {
                       <FontAwesomeIcon
                         color="#43413d"
                         icon={faFacebook}
-                        size={"3x"}
-                        className="mr-4"
+                        size={"2x"}
+                        className="mr-4 mr-md-4  "
                       />
                     </a>{" "}
                     <a
@@ -91,8 +91,8 @@ class IndexFooterComponent extends Component {
                       <FontAwesomeIcon
                         color="#43413d"
                         icon={faTwitter}
-                        size={"3x"}
-                        className="mr-4"
+                        size={"2x"}
+                        className="mr-4 mr-md-4 "
                       />
                     </a>{" "}
                     <a
@@ -102,8 +102,8 @@ class IndexFooterComponent extends Component {
                       <FontAwesomeIcon
                         color="#43413d"
                         icon={faLinkedinIn}
-                        size={"3x"}
-                        className="mr-4"
+                        size={"2x"}
+                        className="mr-4 mr-md-4 "
                       />
                     </a>{" "}
                     <a
@@ -113,10 +113,21 @@ class IndexFooterComponent extends Component {
                       <FontAwesomeIcon
                         color="#43413d"
                         icon={faInstagram}
-                        size={"3x"}
-                        className="mr-4"
+                        size={"2x"}
+                        className="mr-4 mr-md-4 "
                       />
                     </a>{" "}
+                    <a
+                      href="https://www.youtube.com/channel/UCTQ3f_cUs-3j6jEfyFCgzrw"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        color="#43413d"
+                        icon={faYoutube}
+                        size={"2x"}
+                        className="mr-4 mr-md-4 "
+                      />
+                    </a>
                   </div>
                 </div>
               </div>

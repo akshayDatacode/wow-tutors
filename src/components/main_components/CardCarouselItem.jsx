@@ -10,7 +10,7 @@ class CardCarouselItem extends Component {
       <>
         <div
           style={{ background: "#43413d", color: "#f4cb58" }}
-          className="card text-center shadow mt-md-2 pl-md-5 pr-md-5 pt-md-3 pl-5 pr-5 p-3  m-3"
+          className=" card text-center shadow mt-md-2 pl-md-5 pr-md-5 pt-md-3 pl-5 pr-5 p-3  m-3"
         >
           <img
             className=" card-img d-block w-100 circle p-sm-0  "

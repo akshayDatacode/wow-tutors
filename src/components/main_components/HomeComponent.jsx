@@ -38,27 +38,36 @@ class HomeCompoment extends Component {
               >
                 <h2> WELCOME TO WOW TUTORS CONSULTANCY</h2>
                 <p>
-                  Scaling Marks is putting pressure on Students.it is being
-                  expected to every student to perform well in it's Exam.
-                  Parents are too engage to compare their ward from other.
-                  Technological advancement has also changed pattern of teaching
-                  structure . Every student is being taught in same way ignoring
-                  his individual quality in many institution. It is growing need
-                  of private tuition day by day. Private tuition helps slow
-                  learner to get quality education in the comfort of your home.
-                  It also helps bright students to learn in pace .as it protect
-                  quality time for one-to-one discussion between students and
-                  teachers that might be difficult in coaching,schools and
-                  college.
+                  The constant pressure of chasing marks is scaling up the
+                  stress among students. It being expected from every student to
+                  perform exceptionally in every subject, which is measured just
+                  from the scores obtained in exams. Parents often indulge in
+                  comparing their ward from others on the basis of scores adding
+                  to the pressure, even more, stressing furthermore than their
+                  ward should outperform others. The educational institutions in
+                  an attempt to cover up the gigantic syllabi, often rush up,
+                  ignoring the unique learning needs of the students and leaving
+                  no time for proper assimilation of the concepts delivered to
+                  them. All this has led to the sudden surge in the demand of
+                  ITS TUITIONS as they offer individualized attention and cater
+                  to the unique needs of the learners, that too from the comfort
+                  of their homes. It provides the scope of in-depth guidance and
+                  mentoring of the students for effective change in the
+                  performance as well as behavior.
                 </p>
-                <h3>How to find a perfect HOME TUTOR</h3>
+                <h3>Happy to help you</h3>
                 <p>
-                  It is tough task to find a perfect tutor for you your ward. As
-                  Many Parent inquire to school teacher,online searching even
-                  give personal add in classified . Most of time it get futile
-                  now you need not to worry Home Tutor consultancy has been
-                  working to provide Experienced and Professional Home Tutor in
-                  Many city Like Bhopal, Indore
+                  Many concerned Parents enquire about it from teachers at
+                  school, search exhaustively for it online or even get a
+                  personal advertisement published in newspaper classifieds. But
+                  much of these efforts turn futile while causing a hefty sum of
+                  money and time to be drained in the activity. But don't worry,
+                  as we are here to your rescue. WoW Tutors works tirelessly to
+                  provide you the most experienced home tutors, expert, and
+                  trained professionals in their subjects. Currently at your
+                  service in Indore and Bhopal. Our team understands your
+                  concerns regarding the education of your child and cater to
+                  your learning needs with utmost commitment.
                 </p>
               </div>
               <div id="About-Ad-section" className="col-md-6 ">
@@ -68,7 +77,7 @@ class HomeCompoment extends Component {
                 >
                   <img
                     className=" card-img d-block w-100 border-none"
-                    src={require("../../assets/images/6.png")}
+                    src={require("../../assets/images/7.png")}
                     alt="First slide"
                   />
                   <div className="card-body text-center mt-5 mb-3 border-none">
@@ -92,7 +101,7 @@ class HomeCompoment extends Component {
 
           {/*Why Choose us section starts */}
           <div id="why-choose-us" class="text-center mt-5 pt-3">
-            <h2 className="text-Success">Why CHOOSE US SECTION</h2>
+            <h2 className="text-Success">What Make us Unique</h2>
             <div className="row ">
               <div className="col ">
                 <div

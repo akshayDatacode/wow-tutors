@@ -28,32 +28,41 @@ class SideDrawer extends Component {
           <ul>
             <li>
               <a href="#home">
-                <FontAwesomeIcon icon={faHome} className="mr-2" />
-                Home
+                <h5>
+                  <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
+                </h5>
               </a>
             </li>
             <li>
               <a href="#About-us">
-                <FontAwesomeIcon icon={faDoorOpen} className="mr-2" />
-                About Us
+                <h5>
+                  <FontAwesomeIcon icon={faDoorOpen} className="mr-2" /> About
+                  Us
+                </h5>
               </a>
             </li>
             <li>
               <a href="#why-choose-us">
-                <FontAwesomeIcon icon={faClipboardCheck} className="mr-2" />
-                Why Choose
+                <h5>
+                  <FontAwesomeIcon icon={faClipboardCheck} className="mr-2" />{" "}
+                  Why Choose
+                </h5>
               </a>
             </li>
             <li>
               <a href="#testimonial">
-                <FontAwesomeIcon icon={faComments} className="mr-2" />
-                Testimonial
+                <h5>
+                  <FontAwesomeIcon icon={faComments} className="mr-2" />{" "}
+                  Testimonial
+                </h5>
               </a>
             </li>
             <li>
               <a href="#footer">
-                <FontAwesomeIcon icon={faAddressCard} className="mr-2" />
-                Contact Us
+                <h5>
+                  <FontAwesomeIcon icon={faAddressCard} className="mr-2" />{" "}
+                  Contact Us
+                </h5>
               </a>
             </li>
             {/* <li>

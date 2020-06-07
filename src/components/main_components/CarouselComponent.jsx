@@ -10,12 +10,12 @@ class CarouselComponent extends Component {
           <Carousel.Item>
             <div className="card text-center p-0 m-0">
               <a
-                href="https://bit.ly/datacode_beginner_code_challenge"
+                // href="https://bit.ly/datacode_beginner_code_challenge"
                 target="_blank"
               >
                 <img
                   className=" card-img d-block w-100"
-                  src={require("../../assets/images/beginners_coding_banner.jpeg")}
+                  src={require("../../assets/images/slider/c1.png")}
                   alt="First slide"
                 />
               </a>
@@ -24,12 +24,40 @@ class CarouselComponent extends Component {
           <Carousel.Item>
             <div className="card text-center p-0 m-0">
               <a
-                href="https://bit.ly/datacode_beginner_code_challenge"
+                // href="https://bit.ly/datacode_beginner_code_challenge"
                 target="_blank"
               >
                 <img
                   className=" card-img d-block w-100"
-                  src={require("../../assets/images/start_learning_together.jpeg")}
+                  src={require("../../assets/images/slider/c2.png")}
+                  alt="First slide"
+                />
+              </a>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="card text-center p-0 m-0">
+              <a
+                // href="https://bit.ly/datacode_beginner_code_challenge"
+                target="_blank"
+              >
+                <img
+                  className=" card-img d-block w-100"
+                  src={require("../../assets/images/slider/c3.png")}
+                  alt="First slide"
+                />
+              </a>
+            </div>
+          </Carousel.Item>
+          <Carousel.Item>
+            <div className="card text-center p-0 m-0 border-none">
+              <a
+                // href="https://bit.ly/datacode_beginner_code_challenge"
+                target="_blank"
+              >
+                <img
+                  className=" card-img d-block w-100"
+                  src={require("../../assets/images/slider/c4.png")}
                   alt="First slide"
                 />
               </a>
