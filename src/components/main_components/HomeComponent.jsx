@@ -167,10 +167,11 @@ class HomeCompoment extends Component {
           </div>
 
           {/*Why choose us section ends */}
-
-          {/*Testimonial section starts */}
-          <TestimonialCardCarousel />
-          {/*Testimonial section ends */}
+          <div id="testimonial">
+            {/*Testimonial section starts */}
+            <TestimonialCardCarousel />
+            {/*Testimonial section ends */}
+          </div>
         </div>
       </>
     );
