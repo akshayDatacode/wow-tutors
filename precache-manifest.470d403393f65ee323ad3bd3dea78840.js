@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "926384d45dc073f7fd9eb497afd5f961",
+    "revision": "577feb8fcfe4bd72e59234f69469e8f9",
     "url": "/index.html"
   },
   {
-    "revision": "423c2d55b63cf8ec4daa",
+    "revision": "a507e501f0b834c3518a",
     "url": "/static/css/2.829c9cb5.chunk.css"
   },
   {
-    "revision": "c5b70534c78e7f6b4f29",
-    "url": "/static/css/main.d41e5a6e.chunk.css"
+    "revision": "ab88afe2d953b8b66272",
+    "url": "/static/css/main.4062fd8c.chunk.css"
   },
   {
-    "revision": "423c2d55b63cf8ec4daa",
-    "url": "/static/js/2.12d204ea.chunk.js"
+    "revision": "a507e501f0b834c3518a",
+    "url": "/static/js/2.bdb49305.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/static/js/2.12d204ea.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.bdb49305.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c5b70534c78e7f6b4f29",
-    "url": "/static/js/main.61c11cd1.chunk.js"
+    "revision": "ab88afe2d953b8b66272",
+    "url": "/static/js/main.aeece16f.chunk.js"
   },
   {
     "revision": "c8e5f33ba61db609fdea",
@@ -32,8 +32,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/1.090a10c1.png"
   },
   {
+    "revision": "d17270879c7ad1c5aa459060ba846e8a",
+    "url": "/static/media/1.d1727087.png"
+  },
+  {
     "revision": "87965f23fe66a827b983d1ee677680ce",
     "url": "/static/media/2.87965f23.png"
+  },
+  {
+    "revision": "87c9b03d4f4a373d5db3228bab6fa5e1",
+    "url": "/static/media/2.87c9b03d.png"
+  },
+  {
+    "revision": "226fbfccb3ce7bd99bd14fa78efca942",
+    "url": "/static/media/3.226fbfcc.png"
   },
   {
     "revision": "71f81daee335b98b3f76d44c74e9a71f",
@@ -54,6 +66,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "5eb1386d746b7f93f9f1c4b9a44c8c38",
     "url": "/static/media/7.5eb1386d.png"
+  },
+  {
+    "revision": "2635da94f7d0568fb8da884b7683bc0d",
+    "url": "/static/media/ad-section.2635da94.png"
   },
   {
     "revision": "e2a0004d7c65060b98fbdf60b1a87d8b",
@@ -88,8 +104,28 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/apple-touch-icon.aca2fee4.png"
   },
   {
+    "revision": "0d0cdc8263dcd7d25821165167a383e2",
+    "url": "/static/media/become-a-tutor-y.0d0cdc82.png"
+  },
+  {
     "revision": "177981b9c6d05675ca3b0e06c985aaca",
     "url": "/static/media/beginners_coding_banner.177981b9.jpeg"
+  },
+  {
+    "revision": "6ef2017ba371ab7e136cae824204af30",
+    "url": "/static/media/c1.6ef2017b.png"
+  },
+  {
+    "revision": "94ed8b4c48de689876d31b429c124ef4",
+    "url": "/static/media/c2.94ed8b4c.png"
+  },
+  {
+    "revision": "de373bb2f74e33c8b06b25fc7c6bb09a",
+    "url": "/static/media/c3.de373bb2.png"
+  },
+  {
+    "revision": "4386bcf33db59553712fe34d77c5672a",
+    "url": "/static/media/c4.4386bcf3.png"
   },
   {
     "revision": "d3fcc5483453a7b9086e86991a9c458e",
@@ -116,7 +152,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/unnamed.dd78fa84.png"
   },
   {
-    "revision": "f5bf3719c32532e1d63022f00cd319d6",
-    "url": "/static/media/wow_logo.f5bf3719.png"
+    "revision": "bb9b088dc431b0287baf39ba4e81c490",
+    "url": "/static/media/wow_logo.bb9b088d.png"
   }
 ]);
