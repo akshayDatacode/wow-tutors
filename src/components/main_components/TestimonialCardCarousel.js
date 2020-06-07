@@ -20,7 +20,7 @@ class InterviewQuestionCardCarousel extends Component {
                 style={{ color: "#43413d" }}
               >
                 <CardCarouselItem
-                  imgsource="ak.jpg"
+                  imgsource="t1.png"
                   title="Scaling Marks is putting pressure on Students.it is
                   being expected to every student to perform well in
                   it's Exam. Parents are too engage to compare their
@@ -34,7 +34,7 @@ class InterviewQuestionCardCarousel extends Component {
             <Carousel.Item>
               <div className="card-deck pl-md-5 pr-md-5">
                 <CardCarouselItem
-                  imgsource="ak.jpg"
+                  imgsource="t2.png"
                   title="Scaling Marks is putting pressure on Students.it is
                   being expected to every student to perform well in
                   it's Exam. Parents are too engage to compare their
@@ -48,7 +48,7 @@ class InterviewQuestionCardCarousel extends Component {
             <Carousel.Item>
               <div className="card-deck pl-md-5 pr-md-5">
                 <CardCarouselItem
-                  imgsource="ak.jpg"
+                  imgsource="t3.png"
                   title="Scaling Marks is putting pressure on Students.it is
                   being expected to every student to perform well in
                   it's Exam. Parents are too engage to compare their
@@ -70,7 +70,7 @@ class InterviewQuestionCardCarousel extends Component {
           <Carousel indicators={false}>
             <Carousel.Item>
               <CardCarouselItem
-                imgsource="ak.jpg"
+                imgsource="t1.png"
                 title="Scaling Marks is putting pressure on Students.it is
                 being expected to every student to perform well in
                 it's Exam. Parents are too engage to compare their
@@ -82,7 +82,7 @@ class InterviewQuestionCardCarousel extends Component {
             </Carousel.Item>
             <Carousel.Item>
               <CardCarouselItem
-                imgsource="ak.jpg"
+                imgsource="t2.png"
                 title="Scaling Marks is putting pressure on Students.it is
                 being expected to every student to perform well in
                 it's Exam. Parents are too engage to compare their
@@ -94,7 +94,7 @@ class InterviewQuestionCardCarousel extends Component {
             </Carousel.Item>
             <Carousel.Item>
               <CardCarouselItem
-                imgsource="ak.jpg"
+                imgsource="t3.png"
                 title="Scaling Marks is putting pressure on Students.it is
                           being expected to every student to perform well in
                           it's Exam. Parents are too engage to compare their
