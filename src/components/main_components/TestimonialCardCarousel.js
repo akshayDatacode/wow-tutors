@@ -26,6 +26,7 @@ class InterviewQuestionCardCarousel extends Component {
                   it's Exam. Parents are too engage to compare their
                   ward from other. Technological advancement has also
                   changed pattern of teaching structure ."
+                  name="Akshay Datacode"
                   link="/sql_interview_questioin"
                 />
               </div>
@@ -39,6 +40,7 @@ class InterviewQuestionCardCarousel extends Component {
                   it's Exam. Parents are too engage to compare their
                   ward from other. Technological advancement has also
                   changed pattern of teaching structure ."
+                  name="Akshay Datacode"
                   link="/python_interview_question"
                 />
               </div>
@@ -52,6 +54,7 @@ class InterviewQuestionCardCarousel extends Component {
                   it's Exam. Parents are too engage to compare their
                   ward from other. Technological advancement has also
                   changed pattern of teaching structure ."
+                  name="Akshay Datacode"
                   link="/cpp_interview_question"
                 />
               </div>
@@ -73,6 +76,7 @@ class InterviewQuestionCardCarousel extends Component {
                 it's Exam. Parents are too engage to compare their
                 ward from other. Technological advancement has also
                 changed pattern of teaching structure ."
+                name="Akshay Datacode"
                 link="/index_interview_questioins"
               />
             </Carousel.Item>
@@ -84,6 +88,7 @@ class InterviewQuestionCardCarousel extends Component {
                 it's Exam. Parents are too engage to compare their
                 ward from other. Technological advancement has also
                 changed pattern of teaching structure ."
+                name="Akshay Datacode"
                 link="/dbms_interview_question"
               />
             </Carousel.Item>
@@ -95,6 +100,7 @@ class InterviewQuestionCardCarousel extends Component {
                           it's Exam. Parents are too engage to compare their
                           ward from other. Technological advancement has also
                           changed pattern of teaching structure ."
+                name="Akshay Datacode"
                 link="/sql_interview_question"
               />
             </Carousel.Item>

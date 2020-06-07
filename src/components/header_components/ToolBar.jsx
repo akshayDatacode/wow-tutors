@@ -13,6 +13,10 @@ import {
   faAddressCard,
   faDoorOpen,
   faClipboardCheck,
+  faICursor,
+  faInfo,
+  faInfoCircle,
+  faSplotch,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import fire from "../../config/fire";
@@ -35,7 +39,7 @@ class ToolBar extends Component {
             <div className="toolbar_logo">
               <a href="/">
                 <img
-                  className=" card-img d-block w-100"
+                  className="logo-img card-img d-block w-100"
                   src={require("../../assets/images/wow_logo.png")}
                   alt="First slide"
                 />
@@ -53,14 +57,14 @@ class ToolBar extends Component {
                 </li>
                 <li>
                   <a href="#About-us">
-                    <FontAwesomeIcon icon={faDoorOpen} className="mr-2" />
+                    <FontAwesomeIcon icon={faInfoCircle} className="mr-2" />
                     About Us
                   </a>
                 </li>
                 <li>
                   <a href="#why-choose-us">
-                    <FontAwesomeIcon icon={faClipboardCheck} className="mr-2" />
-                    Why Choose
+                    <FontAwesomeIcon icon={faSplotch} className="mr-2" />
+                    The WoW Edge
                   </a>
                 </li>
                 <li>

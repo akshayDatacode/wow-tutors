@@ -15,6 +15,14 @@
   margin-left: 1.5rem;
 }
 
+#logo-img {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-left: 44%;
+}
+
 .toolbar_logo a {
   color: white;
   text-decoration: none;

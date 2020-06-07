@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { Carousel } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPrint, faUserNinja } from "@fortawesome/free-solid-svg-icons";                                                                                                                                                                                                                                                                                                                                                                                                             
+import { faPrint, faUserNinja } from "@fortawesome/free-solid-svg-icons";
 import "../../assets/css/Testimonial-img.css";
 class CardCarouselItem extends Component {
   state = {};
@@ -13,12 +13,16 @@ class CardCarouselItem extends Component {
           style={{ background: "#43413d", color: "#f4cb58" }}
           className=" card text-center shadow mt-md-2 pl-md-5 pr-md-5 pt-md-3 pl-5 pr-5 p-3  m-3"
         >
-          <img id="testimonial-img"
+          <img
+            id="testimonial-img"
             style={{ borderRadius: "100%" }}
             src={require("../../assets/images/" + this.props.imgsource)}
             alt="First slide"
           />
           <div className="card-body p-0 mt-4">
+            <h5 className="text-center mb-3" style={{ color: "white" }}>
+              {this.props.name}{" "}
+            </h5>
             <p className="text-center">{this.props.title}</p>
           </div>
         </div>
@@ -26,5 +30,5 @@ class CardCarouselItem extends Component {
     );
   }
 }
-                                                                                                                                                                                    
+
 export default CardCarouselItem;

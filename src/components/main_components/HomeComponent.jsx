@@ -12,13 +12,12 @@ class HomeCompoment extends Component {
       <>
         <div className="container-fluid p-0 mt-2">
           <CarouselComponent />
-          <div className=" mt-5 text-center mb-5" id="home">
-            <h1
-              className="display-2  text-weight-bold text-center"
-              style={{ color: "#43413d" }}
-            >
-              WOW TUTORS
-            </h1>
+          <div className=" mt-5 text-center mb-5" id="home ml-5 mr-5 pl-5 pr-5">
+            <img
+              className=" card-img d-block w-100 "
+              src={require("../../assets/images/wow_logo.png")}
+              alt="First slide"
+            />
             <div>
               <h1
                 className="btn border border-warning"
@@ -101,7 +100,9 @@ class HomeCompoment extends Component {
 
           {/*Why Choose us section starts */}
           <div id="why-choose-us" class="text-center mt-5 pt-3">
-            <h2 className="text-Success">What Make us Unique</h2>
+            <h2 className="text-Success" style={{ color: "#43413d" }}>
+              What Make us Unique
+            </h2>
             <div className="row ">
               <div className="col ">
                 <div

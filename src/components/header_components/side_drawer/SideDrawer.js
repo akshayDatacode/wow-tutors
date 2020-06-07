@@ -13,6 +13,8 @@ import {
   faAddressCard,
   faClipboardCheck,
   faDoorOpen,
+  faInfoCircle,
+  faSplotch,
 } from "@fortawesome/free-solid-svg-icons";
 
 class SideDrawer extends Component {
@@ -36,7 +38,7 @@ class SideDrawer extends Component {
             <li>
               <a href="#About-us">
                 <h5>
-                  <FontAwesomeIcon icon={faDoorOpen} className="mr-2" /> About
+                  <FontAwesomeIcon icon={faInfoCircle} className="mr-2" /> About
                   Us
                 </h5>
               </a>
@@ -44,8 +46,8 @@ class SideDrawer extends Component {
             <li>
               <a href="#why-choose-us">
                 <h5>
-                  <FontAwesomeIcon icon={faClipboardCheck} className="mr-2" />{" "}
-                  Why Choose
+                  <FontAwesomeIcon icon={faSplotch} className="mr-2" />
+                  The Wow Edge
                 </h5>
               </a>
             </li>
