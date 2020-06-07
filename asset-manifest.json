@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.4062fd8c.chunk.css",
-    "main.js": "/static/js/main.aeece16f.chunk.js",
-    "main.js.map": "/static/js/main.aeece16f.chunk.js.map",
+    "main.js": "/static/js/main.5adf2aa9.chunk.js",
+    "main.js.map": "/static/js/main.5adf2aa9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3c2e46a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3c2e46a9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
     "static/js/2.bdb49305.chunk.js": "/static/js/2.bdb49305.chunk.js",
     "static/js/2.bdb49305.chunk.js.map": "/static/js/2.bdb49305.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.470d403393f65ee323ad3bd3dea78840.js": "/precache-manifest.470d403393f65ee323ad3bd3dea78840.js",
+    "precache-manifest.c3bfb92ad485c1a0d44091cbd3b53ec2.js": "/precache-manifest.c3bfb92ad485c1a0d44091cbd3b53ec2.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.4062fd8c.chunk.css.map": "/static/css/main.4062fd8c.chunk.css.map",
     "static/js/2.bdb49305.chunk.js.LICENSE.txt": "/static/js/2.bdb49305.chunk.js.LICENSE.txt",
-    "static/media/1.png": "/static/media/1.d1727087.png",
-    "static/media/2.png": "/static/media/2.87c9b03d.png",
+    "static/media/1.png": "/static/media/1.090a10c1.png",
+    "static/media/2.png": "/static/media/2.87965f23.png",
     "static/media/3.png": "/static/media/3.71f81dae.png",
     "static/media/4.png": "/static/media/4.1cfceeca.png",
     "static/media/5.png": "/static/media/5.04eab24f.png",
@@ -36,6 +36,9 @@
     "static/media/favicon.ico": "/static/media/favicon.daccfc74.ico",
     "static/media/site.webmanifest": "/static/media/site.053100cb.webmanifest",
     "static/media/start_learning_together.jpeg": "/static/media/start_learning_together.e060b131.jpeg",
+    "static/media/t1.png": "/static/media/t1.d1727087.png",
+    "static/media/t2.png": "/static/media/t2.87c9b03d.png",
+    "static/media/t3.png": "/static/media/t3.226fbfcc.png",
     "static/media/testimonial.jpeg": "/static/media/testimonial.2ab32ef5.jpeg",
     "static/media/unnamed.png": "/static/media/unnamed.dd78fa84.png",
     "static/media/wow_logo.png": "/static/media/wow_logo.bb9b088d.png"
@@ -45,6 +48,6 @@
     "static/css/2.829c9cb5.chunk.css",
     "static/js/2.bdb49305.chunk.js",
     "static/css/main.4062fd8c.chunk.css",
-    "static/js/main.aeece16f.chunk.js"
+    "static/js/main.5adf2aa9.chunk.js"
   ]
 }
