@@ -1,3 +1,14 @@
 .container-fluid {
   overflow: hidden;
 }
+
+.home_img{
+width:50%;
+margin:0 auto;
+}
+@media (max-width: 760px) {
+  .home_img{
+    width:100%;
+    
+  }
+}

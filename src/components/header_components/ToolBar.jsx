@@ -37,14 +37,12 @@ class ToolBar extends Component {
               <DrawerToggleButton clickButton={this.props.drawerClickHandler} />
             </div>
             <div className="toolbar_logo">
-              <a href="/">
                 <img
-                  className="logo-img card-img d-block w-100"
+                  className="logo_img "
                   src={require("../../assets/images/wow_logo.png")}
                   alt="First slide"
                 />
-              </a>
-            </div>
+              </div>
             {/* This is for Logo and Nev Spaccing */}
             <div className="logo-nev-spacer" />
             <div className="toolbar_navigation-items">

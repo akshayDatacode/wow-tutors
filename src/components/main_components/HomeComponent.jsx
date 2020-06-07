@@ -14,7 +14,8 @@ class HomeCompoment extends Component {
           <CarouselComponent />
           <div className=" mt-5 text-center mb-5" id="home ml-5 mr-5 pl-5 pr-5">
             <img
-              className=" card-img d-block w-100 "
+              className="home_img card-img d-block  "
+            
               src={require("../../assets/images/wow_logo.png")}
               alt="First slide"
             />

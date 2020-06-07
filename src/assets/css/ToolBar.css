@@ -15,11 +15,9 @@
   margin-left: 1.5rem;
 }
 
-#logo-img {
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
+.logo_img {
+  width:200px;
+  height: 71px;
   margin-left: 44%;
 }
 
@@ -57,6 +55,10 @@
 @media (max-width: 760px) {
   .toolbar_navigation-items {
     display: none;
+  }
+  .logo_img{
+    margin-left:15%;
+    height:69px;
   }
 }
 

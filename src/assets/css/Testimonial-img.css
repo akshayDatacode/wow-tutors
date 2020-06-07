@@ -3,10 +3,10 @@
   height: 100px;
   display: flex;
   justify-content: center;
-  margin-left: 44%;
+  margin-left: 45%;
 }
 @media screen and (max-width: 600px) {
   #testimonial-img {
-    margin-left: 29%;
+    margin-left: 32%;
   }
 }
