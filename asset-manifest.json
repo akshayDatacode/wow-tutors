@@ -1,23 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.4062fd8c.chunk.css",
-    "main.js": "/static/js/main.4fba9423.chunk.js",
-    "main.js.map": "/static/js/main.4fba9423.chunk.js.map",
+    "main.js": "/static/js/main.d3b4e314.chunk.js",
+    "main.js.map": "/static/js/main.d3b4e314.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3c2e46a9.js",
     "runtime-main.js.map": "/static/js/runtime-main.3c2e46a9.js.map",
     "static/css/2.829c9cb5.chunk.css": "/static/css/2.829c9cb5.chunk.css",
-    "static/js/2.bdb49305.chunk.js": "/static/js/2.bdb49305.chunk.js",
-    "static/js/2.bdb49305.chunk.js.map": "/static/js/2.bdb49305.chunk.js.map",
+    "static/js/2.74660737.chunk.js": "/static/js/2.74660737.chunk.js",
+    "static/js/2.74660737.chunk.js.map": "/static/js/2.74660737.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f86abd59e62a47a148899a2439851a05.js": "/precache-manifest.f86abd59e62a47a148899a2439851a05.js",
+    "precache-manifest.05b5abc1153f67d66982db445a6cdb09.js": "/precache-manifest.05b5abc1153f67d66982db445a6cdb09.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.829c9cb5.chunk.css.map": "/static/css/2.829c9cb5.chunk.css.map",
     "static/css/main.4062fd8c.chunk.css.map": "/static/css/main.4062fd8c.chunk.css.map",
-    "static/js/2.bdb49305.chunk.js.LICENSE.txt": "/static/js/2.bdb49305.chunk.js.LICENSE.txt",
-    "static/media/1.png": "/static/media/1.090a10c1.png",
-    "static/media/2.png": "/static/media/2.87965f23.png",
-    "static/media/3.png": "/static/media/3.71f81dae.png",
-    "static/media/4.png": "/static/media/4.1cfceeca.png",
+    "static/js/2.74660737.chunk.js.LICENSE.txt": "/static/js/2.74660737.chunk.js.LICENSE.txt",
+    "static/media/1.jpg": "/static/media/1.dbcc44a0.jpg",
+    "static/media/2.jpg": "/static/media/2.c2cb66f8.jpg",
+    "static/media/4.jpg": "/static/media/4.7f9f138b.jpg",
     "static/media/5.png": "/static/media/5.04eab24f.png",
     "static/media/6.png": "/static/media/6.c44db6f9.png",
     "static/media/7.png": "/static/media/7.5eb1386d.png",
@@ -40,14 +39,15 @@
     "static/media/t2.png": "/static/media/t2.87c9b03d.png",
     "static/media/t3.png": "/static/media/t3.226fbfcc.png",
     "static/media/testimonial.jpeg": "/static/media/testimonial.2ab32ef5.jpeg",
+    "static/media/u.jpg": "/static/media/u.3352b4b4.jpg",
     "static/media/unnamed.png": "/static/media/unnamed.dd78fa84.png",
     "static/media/wow_logo.png": "/static/media/wow_logo.bb9b088d.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3c2e46a9.js",
     "static/css/2.829c9cb5.chunk.css",
-    "static/js/2.bdb49305.chunk.js",
+    "static/js/2.74660737.chunk.js",
     "static/css/main.4062fd8c.chunk.css",
-    "static/js/main.4fba9423.chunk.js"
+    "static/js/main.d3b4e314.chunk.js"
   ]
 }
