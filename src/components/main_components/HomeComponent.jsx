@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import TestimonialCarousel from "./TestimonialCarousel";
-
+import TestimonialCardCarousel from "./TestimonialCardCarousel";
 import "../../assets/css/Home-Component.css";
 import CarouselComponent from "./CarouselComponent";
+import InterviewQuestionCardCarousel from "./TestimonialCardCarousel";
 
 class HomeCompoment extends Component {
   state = {};
@@ -61,12 +61,30 @@ class HomeCompoment extends Component {
                   Many city Like Bhopal, Indore
                 </p>
               </div>
-              <div id="About-Ad-section" className="col-md-6">
-                <img
-                  className=" card-img d-block w-100"
-                  src={require("../../assets/images/6.png")}
-                  alt="First slide"
-                />
+              <div id="About-Ad-section" className="col-md-6 ">
+                <div
+                  className="card border-none"
+                  style={{ background: "#f7f7f6 ", borderColor: "#f7f7f6" }}
+                >
+                  <img
+                    className=" card-img d-block w-100 border-none"
+                    src={require("../../assets/images/6.png")}
+                    alt="First slide"
+                  />
+                  <div className="card-body text-center mt-5 mb-3 border-none">
+                    <div>
+                      <h1
+                        className="btn border "
+                        style={{
+                          background: "#f4cb58",
+                          borderColor: "#43413d",
+                        }}
+                      >
+                        Join Us Now{" "}
+                      </h1>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -141,7 +159,7 @@ class HomeCompoment extends Component {
           {/*Why choose us section ends */}
 
           {/*Testimonial section starts */}
-          <TestimonialCarousel />
+          <TestimonialCardCarousel />
           {/*Testimonial section ends */}
         </div>
       </>

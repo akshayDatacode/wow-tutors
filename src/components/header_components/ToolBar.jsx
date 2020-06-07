@@ -8,6 +8,11 @@ import {
   faUser,
   faUsers,
   faMapPin,
+  faComment,
+  faComments,
+  faAddressCard,
+  faDoorOpen,
+  faClipboardCheck,
 } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 //import fire from "../../config/fire";
@@ -48,25 +53,25 @@ class ToolBar extends Component {
                 </li>
                 <li>
                   <a href="#About-us">
-                    <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
+                    <FontAwesomeIcon icon={faDoorOpen} className="mr-2" />
                     About Us
                   </a>
                 </li>
                 <li>
                   <a href="#why-choose-us">
-                    <FontAwesomeIcon icon={faCheck} className="mr-2" />
+                    <FontAwesomeIcon icon={faClipboardCheck} className="mr-2" />
                     Why Choose
                   </a>
                 </li>
                 <li>
                   <a href="#testimonial">
-                    <FontAwesomeIcon icon={faUsers} className="mr-2" />
+                    <FontAwesomeIcon icon={faComments} className="mr-2" />
                     Testimonial
                   </a>
                 </li>
                 <li>
                   <a href="#footer">
-                    <FontAwesomeIcon icon={faMapPin} className="mr-2" />
+                    <FontAwesomeIcon icon={faAddressCard} className="mr-2" />
                     Contact Us
                   </a>
                 </li>

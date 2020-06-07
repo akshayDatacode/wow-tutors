@@ -5,7 +5,20 @@ import {
   faEnvelopeOpen,
   faPhone,
   faAddressCard,
+  faWater,
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  fab,
+  faFacebookSquare,
+  faLinkedinIn,
+  faYoutube,
+  faInstagram,
+  faWhatsapp,
+  faWhatsappSquare,
+  faFacebook,
+  faTwitch,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 class IndexFooterComponent extends Component {
   state = {};
   render() {
@@ -50,10 +63,60 @@ class IndexFooterComponent extends Component {
                       : 6260947192
                     </h6>
                     <h6 className="mb-2">
+                      <FontAwesomeIcon icon={faWhatsapp} className="mr-2" />{" "}
+                      Whatsapp : 6260947192
+                    </h6>
+                    <h6 className="mb-2">
                       <FontAwesomeIcon icon={faAddressCard} className="mr-2" />{" "}
                       Address : 1st Floor Sappire Square Building Tower Square ,
                       Indore
                     </h6>
+                  </div>
+                  <div className="ml-5 mt-5">
+                    <a
+                      href="https://m.facebook.com/wowtutorsindore/"
+                      target="_balnk"
+                    >
+                      <FontAwesomeIcon
+                        color="#43413d"
+                        icon={faFacebook}
+                        size={"3x"}
+                        className="mr-4"
+                      />
+                    </a>{" "}
+                    <a
+                      href="https://twitter.com/TutorsWow?s=08"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        color="#43413d"
+                        icon={faTwitter}
+                        size={"3x"}
+                        className="mr-4"
+                      />
+                    </a>{" "}
+                    <a
+                      href="https://www.linkedin.com/mwlite/company/wow-tutors"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        color="#43413d"
+                        icon={faLinkedinIn}
+                        size={"3x"}
+                        className="mr-4"
+                      />
+                    </a>{" "}
+                    <a
+                      href="https://www.instagram.com/wow_tutor?r=nametag"
+                      target="_blank"
+                    >
+                      <FontAwesomeIcon
+                        color="#43413d"
+                        icon={faInstagram}
+                        size={"3x"}
+                        className="mr-4"
+                      />
+                    </a>{" "}
                   </div>
                 </div>
               </div>

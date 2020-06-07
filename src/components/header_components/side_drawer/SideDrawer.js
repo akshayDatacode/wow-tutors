@@ -9,6 +9,10 @@ import {
   faCheckSquare,
   faUsers,
   faMap,
+  faComments,
+  faAddressCard,
+  faClipboardCheck,
+  faDoorOpen,
 } from "@fortawesome/free-solid-svg-icons";
 
 class SideDrawer extends Component {
@@ -24,42 +28,32 @@ class SideDrawer extends Component {
           <ul>
             <li>
               <a href="#home">
-                <h5>
-                  <FontAwesomeIcon icon={faHome} className="mr-2" />
-                  Home
-                </h5>
+                <FontAwesomeIcon icon={faHome} className="mr-2" />
+                Home
               </a>
             </li>
             <li>
               <a href="#About-us">
-                <h5>
-                  <FontAwesomeIcon icon={faAddressBook} className="mr-2" />
-                  About Us
-                </h5>
+                <FontAwesomeIcon icon={faDoorOpen} className="mr-2" />
+                About Us
               </a>
             </li>
             <li>
               <a href="#why-choose-us">
-                <h5>
-                  <FontAwesomeIcon icon={faCheckSquare} className="mr-2" />
-                  Why Choose
-                </h5>
+                <FontAwesomeIcon icon={faClipboardCheck} className="mr-2" />
+                Why Choose
               </a>
             </li>
             <li>
               <a href="#testimonial">
-                <h5>
-                  <FontAwesomeIcon icon={faUsers} className="mr-2" />
-                  Testimonial
-                </h5>
+                <FontAwesomeIcon icon={faComments} className="mr-2" />
+                Testimonial
               </a>
             </li>
             <li>
               <a href="#footer">
-                <h5>
-                  <FontAwesomeIcon icon={faMap} className="mr-2" />
-                  Contact Us
-                </h5>
+                <FontAwesomeIcon icon={faAddressCard} className="mr-2" />
+                Contact Us
               </a>
             </li>
             {/* <li>
