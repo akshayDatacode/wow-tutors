@@ -31,23 +31,25 @@ class IndexFooterComponent extends Component {
         >
           <div className="row">
             <div className="col mt-4">
-              <h4 className="text-center">Contact Us</h4>
+              <h2 className="text-center">Contact Us</h2>
               <div className="row">
                 <div className="col-md-6 ">
                   <div className="row p-3 ">
                     <div className="col text-center">
-                      <h4>Our Vision</h4>
-                      <p className="pl-5 pr-5 mt-4 mb-4 ">
-                        Akshay andliyaScaling Marks is putting pressure on
-                        Students.it is being expected to every student to
-                        perform well in it's Exam. Parents are too engage to
-                        compare their ward from other. Technological advancement
-                        has also changed pattern of teaching structure . Every
-                        student is being taught in same way ignoring his
-                        individual quality in many institution. It is growing
-                        need of private tuition day by day. Private tuition
-                        helps slow learner to get quality education in the
-                      </p>
+                      <h3>We Offer</h3>
+
+                      <ul className="text-left mt-5 mb-5 mt-md-2 mb-md-2">
+                        <h5>Teachers for</h5>
+                        <li>KG to 5th Std.</li>
+                        <li>6th to 8th Std.</li>
+                        <li>8th and 9th Std.</li>
+                        <li>11th ,12th Physics,Chemistry,Biology.</li>
+                        <li>French.</li>
+                        <li>Spoken English.</li>
+                        <li>Family Yoga Teacher.</li>
+                        <li>online Yoga Assistant.</li>
+                        <li>Home Schooling Assistant</li>
+                      </ul>
                     </div>
                   </div>
                 </div>
@@ -68,8 +70,8 @@ class IndexFooterComponent extends Component {
                     </h6>
                     <h6 className="mb-2">
                       <FontAwesomeIcon icon={faAddressCard} className="mr-2" />{" "}
-                      Address : 1st Floor Sappire Square Building Tower Square ,
-                      Indore
+                      Address : 1st Floor Sappire Square Building, Tower Square
+                      , Indore
                     </h6>
                   </div>
                   <div className="ml-md-5 ml-5  mt-5">

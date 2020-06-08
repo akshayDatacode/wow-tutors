@@ -20,9 +20,10 @@ class CardCarouselItem extends Component {
             alt="First slide"
           />
           <div className="card-body p-0 mt-4">
-            <h5 className="text-center mb-3" style={{ color: "white" }}>
+            <h5 className="text-center mb-1" style={{ color: "white" }}>
               {this.props.name}{" "}
             </h5>
+            <h6 className="mb-3">{this.props.type}</h6>
             <p className="text-center">{this.props.title}</p>
           </div>
         </div>

@@ -12,7 +12,7 @@ class HomeCompoment extends Component {
       <>
         <div className="container-fluid p-0 mt-2">
           <CarouselComponent />
-          <div className=" mt-5 text-center mb-5" id="home ml-5 mr-5 pl-5 pr-5">
+          <div className=" mt-5 text-center mb-5" id="Home">
             <img
               className="home_img card-img d-block  "
               src={require("../../assets/images/wow_logo.png")}
@@ -20,10 +20,10 @@ class HomeCompoment extends Component {
             />
             <div>
               <h1
-                className="btn border border-warning"
+                className="btn border border-warning "
                 style={{ background: "#f4cb58" }}
               >
-                call : 7895854125{" "}
+                Call Now : 6260947192{" "}
               </h1>
             </div>
           </div>
@@ -37,36 +37,55 @@ class HomeCompoment extends Component {
               >
                 <h2> WELCOME TO WOW TUTORS CONSULTANCY</h2>
                 <p>
-                  The constant pressure of chasing marks is scaling up the
-                  stress among students. It being expected from every student to
-                  perform exceptionally in every subject, which is measured just
-                  from the scores obtained in exams. Parents often indulge in
-                  comparing their ward from others on the basis of scores adding
-                  to the pressure, even more, stressing furthermore than their
-                  ward should outperform others. The educational institutions in
-                  an attempt to cover up the gigantic syllabi, often rush up,
-                  ignoring the unique learning needs of the students and leaving
-                  no time for proper assimilation of the concepts delivered to
-                  them. All this has led to the sudden surge in the demand of
-                  ITS TUITIONS as they offer individualized attention and cater
-                  to the unique needs of the learners, that too from the comfort
-                  of their homes. It provides the scope of in-depth guidance and
-                  mentoring of the students for effective change in the
-                  performance as well as behavior.
+                  The constant pressure of chasing marks, is scaling up the
+                  stress among students. It is being expected from every
+                  student, to perform exceptionally in every subject , which is
+                  measured just from the scores obtained, in exams.
                 </p>
-                <h3>Happy to help you</h3>
+                <p>
+                  Parents often indulge in comparing their ward from others, on
+                  the basis of scores adding to the pressure even more,
+                  stressing further, that their ward should outperform others.
+                </p>
+                <p>
+                  The educational institutions in an attempt to cover up the
+                  gigantic syllabus, often rush up, ignoring the unique learning
+                  needs of the students and leaving no time for proper
+                  assimilation of the concepts delivered to them.
+                </p>
+                <p>
+                  All this has led to the sudden surge in the demand of PRIVATE
+                  TUITIONS, as they offer personalised attention and cater to
+                  unique needs of the learners, that too from the comfort of
+                  their homes.
+                </p>
+                <p>
+                  It provides the scope of, in depth guidance and mentoring of
+                  the students for effective change in the performance as well
+                  as behaviour.
+                </p>
+
+                <h2 className="mt-4">Happy to help you</h2>
                 <p>
                   Many concerned Parents enquire about it from teachers at
-                  school, search exhaustively for it online or even get a
-                  personal advertisement published in newspaper classifieds. But
-                  much of these efforts turn futile while causing a hefty sum of
-                  money and time to be drained in the activity. But don't worry,
-                  as we are here to your rescue. WoW Tutors works tirelessly to
-                  provide you the most experienced home tutors, expert, and
-                  trained professionals in their subjects. Currently at your
-                  service in Indore and Bhopal. Our team understands your
-                  concerns regarding the education of your child and cater to
-                  your learning needs with utmost commitment.
+                  school, search exhaustively for it online and sometimes even
+                  get a personal advertisement published in newspaper
+                  classifieds.
+                </p>
+                <p>
+                  But much of these efforts turn futile, while causing a hefty
+                  sum of money and time to be drained in the activity.
+                </p>
+                <p>
+                  But don't worry, as we are here to your rescue. WoW Tutors
+                  works tirelessly to provide you the most experienced home
+                  tutors, expert and trained professionals in their subjects.
+                  Currently at your service in Indore and Bhopal.
+                </p>
+                <p>
+                  Our team understands your concerns regarding the education of
+                  your child and cater to your learning needs with utmost
+                  commitment.
                 </p>
               </div>
               <div id="About-Ad-section" className="col-md-6 ">
@@ -74,22 +93,32 @@ class HomeCompoment extends Component {
                   className="card border-none"
                   style={{ background: "#f7f7f6 ", borderColor: "#f7f7f6" }}
                 >
-                  <img
-                    className=" card-img d-block w-100 border-none"
-                    src={require("../../assets/images/7.png")}
-                    alt="First slide"
-                  />
+                  <a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfkEJOlsmw3pt6R-_jD2J8sfa3sYysxSxQlrFMoWMrtqV1XNA/viewform?usp=sf_link"
+                    target="_blank"
+                  >
+                    <img
+                      className=" card-img d-block w-100 border-none"
+                      src={require("../../assets/images/7.png")}
+                      alt="First slide"
+                    />
+                  </a>
                   <div className="card-body text-center mt-5 mb-3 border-none">
                     <div>
-                      <h1
-                        className="btn border "
-                        style={{
-                          background: "#f4cb58",
-                          borderColor: "#43413d",
-                        }}
+                      <a
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfkEJOlsmw3pt6R-_jD2J8sfa3sYysxSxQlrFMoWMrtqV1XNA/viewform?usp=sf_link"
+                        target="_blank"
                       >
-                        Join Us Now{" "}
-                      </h1>
+                        <h1
+                          className="btn border "
+                          style={{
+                            background: "#f4cb58",
+                            borderColor: "#43413d",
+                          }}
+                        >
+                          Join Us Now{" "}
+                        </h1>
+                      </a>
                     </div>
                   </div>
                 </div>

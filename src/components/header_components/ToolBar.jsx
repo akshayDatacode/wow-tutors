@@ -48,7 +48,7 @@ class ToolBar extends Component {
             <div className="toolbar_navigation-items">
               <ul>
                 <li>
-                  <a href="#home">
+                  <a href="#Home">
                     <FontAwesomeIcon icon={faHome} className="mr-2" />
                     Home
                   </a>

@@ -29,7 +29,7 @@ class SideDrawer extends Component {
         <nav className={drawerClasses}>
           <ul>
             <li>
-              <a href="#home">
+              <a href="#Home">
                 <h5>
                   <FontAwesomeIcon icon={faHome} className="mr-2" /> Home
                 </h5>
